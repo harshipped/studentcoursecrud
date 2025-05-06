@@ -1,6 +1,6 @@
 # Student-Course CRUD Management System
 
-A full-stack Spring Boot web application to manage Students and Courses using CRUD operations. Built using Spring Boot, JSP, JPA, Hibernate Validator, and tested with JUnit and Mockito.
+A full-stack Spring Boot web application to manage Students and Courses using CRUD operations. Built using Spring Boot, JSP, JPA, Hibernate Validator.
 
 ---
 
