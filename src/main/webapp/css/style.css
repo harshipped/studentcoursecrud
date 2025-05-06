@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    /* font-size: larger; */
+}
+
+button, input[type=submit] {
+    background-color: #27104a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-right: 12px;
+    margin-left: 12px;
+    /* align-items: center; */
+}
+
+button:hover, input[type=submit]:hover {
+    background-color: #cac6cf;
+    color: #000;
+    border: #000;
+}
+
+button.delete {
+    background-color: #db1c1c;
+}
+
+button.delete:hover {
+    background-color: #cac6cf;
+    color: #000;
+    border: #000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    font-size: 16px;
+    table-layout: auto;
+}
+
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+table th {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table td {
+    color: #444;
+}
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.actions {
+    text-align: center;
+}
+
+td.actions a {
+    margin: 0 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.form-container {
+    background-color: #abd7f0;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 80%;
+    margin: 40px auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.form-container button {
+    display: inline;
+    margin: 10px auto;
+}
+
+
+label {
+    display: block;
+    /* margin-top: 0px; */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 77%;
+    padding: 8px;
+    margin-top: 2px;
+    border: 1px solid #4e4c4c;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+
+
+
